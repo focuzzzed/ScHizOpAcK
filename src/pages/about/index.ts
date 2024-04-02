@@ -1,0 +1,1 @@
+export {LazyAbout as About} from '@/pages/about/about.lazy';

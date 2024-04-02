@@ -1,0 +1,21 @@
+$primary-color: #9932cc;
+$active-color: #5d1283;
+
+.button {
+  background-color: $primary-color;
+  font-weight: 600;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 5px 10px;
+  color: white;
+
+  &:hover {
+    background-color: $active-color;
+    transition: background-color 0.5s ease-in-out;
+  }
+}
+
+.count {
+  font-style: italic;
+}
